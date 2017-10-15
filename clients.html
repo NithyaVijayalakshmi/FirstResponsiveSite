@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Image carousel</title>
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Lato" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="css/css/moveme.css" rel="stylesheet">
+    <!--  <style>
+      html,body {
+        height: 1500px;
+      }
+  </style> -->
+</head>
+
+<body>
+    <!-- navbar-inverse , navbar-fixed-bottom , dropdown, dropdown-menu    -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">MOVE ME </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li class="active"><a href="#">Clients</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social <b class="caret"></b> </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Facebook </a></li>
+                        <li><a href="#">Twitter </a></li>
+                        <li><a href="#">Watsapp</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+    <div class="intro-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <img src="images/bike.jpg" class="img-responsive tpad">
+                </div>
+                <div class="col-xs-9">
+                    <h1><span class="text-muted">&raquo; Clients </span></h1>
+                    <p class="lead">We work with some of the biggest companies in the world, take a look for yourself</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- End Intro -->
+    <div class="container padded">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Our Cients</h2>
+                <hr>
+                <p>
+                    Many corporate clients use us to help their employees to navigate in their daily work lives, business trips and clients meetups ,find out what we can do for you
+                </p>
+            </div>
+        </div>
+        <div class="row tpad myTooltip">
+            <div class="col-sm-6 col-md-3 bpad">
+                <a href="#" data-toggle="tooltip" title="client one" class="thumbnail"> 
+                        <img src="images/client-logo1.png" alt="logo">
+                        </a>
+            </div>
+            <div class="col-sm-6 col-md-3 bpad">
+                <a href="#" data-toggle="tooltip" title="client two" class="thumbnail"> 
+                        <img src="images/client-logo2.png" alt="logo">
+                        </a>
+            </div>
+            <div class="col-sm-6 col-md-3 bpad">
+                <a href="#" data-toggle="tooltip" title="client three" class="thumbnail"> 
+                        <img src="images/client-logo3.png" alt="logo">
+                        </a>
+            </div>
+            <div class="col-sm-6 col-md-3 bpad">
+                <a href="#" data-toggle="tooltip" title="client four" class="thumbnail"> 
+                        <img src="images/client-logo4.png" alt="logo">
+                        </a>
+            </div>
+            <div class="col-sm-6 col-md-3 bpad">
+                <a href="#" data-toggle="tooltip" title="client five" class="thumbnail"> 
+                        <img src="images/client-logo5.png" alt="logo">
+                        </a>
+            </div>
+            <div class="col-sm-6 col-md-3 bpad">
+                <a href="#" data-toggle="tooltip" title="client six" class="thumbnail"> 
+                        <img src="images/client-logo6.png" alt="logo">
+                        </a>
+            </div>
+            <div class="col-sm-6 col-md-3 bpad">
+                <a href="#" data-toggle="tooltip" title="client seven" class="thumbnail"> 
+                        <img src="images/client-logo7.png" alt="logo">
+                        </a>
+            </div>
+            <div class="col-sm-6 col-md-3 bpad">
+                <a href="#" data-toggle="tooltip" title="client eight" class="thumbnail"> 
+                        <img src="images/client-logo8.png" alt="logo">
+                        </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                       <a  data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                       <span class="glyphicon glyphicon-briefcase"></span>
+                       Corporate  Clients              
+                       </a>
+                   </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse ">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                       <a  data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                       <span class="glyphicon glyphicon-barcode"></span>
+                       Commercial  Clients              
+                       </a>
+                   </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                       <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                       <span class="glyphicon glyphicon-phone"></span>
+                       Appstore Coustomers              
+                       </a>
+                   </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+    <!-- End page Content -->
+    <div class="marketing">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-responsive" src="images/mob.png">
+                </div>
+                <div class="col-sm-6">
+                    <h3 class="tpad">ALWAYS ON HAND</h3>
+                    <hr>
+                    <p>Download the App for your device and try it for yourself.No matter how regularly you make a journey this app will completely change the way you travel.</p>
+                    <p> <a class="btn btn-sm btn-info" href="#">Got it Now</a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Marketing Section -->
+    <div class="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 tabbable">
+                    <!-- Tabs go Here -->
+                    <ul id="myTab" class="nav nav-tabs">
+                        <li class="active"><a href="#android" data-toggle="tab">Android</a></li>
+                        <li><a href="#bb" data-toggle="tab">BlackBerry</a></li>
+                        <li><a href="#ios" data-toggle="tab">Apple</a></li>
+                        <li><a href="#win" data-toggle="tab">Windows</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="android">
+                            <p>
+                                <img src="images/an.png" alt="google" class="pull-right">Android..Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+                                <br>
+                                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+                        </div>
+                        <div class="tab-pane fade in" id="bb">
+                            <p>
+                                <img src="images/bb.png" alt="bby" class="pull-right">BlackBeery..Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+                                <br>
+                                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                            </p>
+                        </div>
+                        <div class="tab-pane fade in" id="ios">
+                            <p>
+                                <img src="images/ap.png" alt="app" class="pull-right">Apple..Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                                <br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                            </p>
+                        </div>
+                        <div class="tab-pane fade in" id="win">
+                            <p>
+                                <img src="images/wn.png" alt="win" class="pull-right">Windows..Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+                                <br>
+                                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-sm-offset-2">
+                    <!--Block Quote goes here -->
+                    <blockquote>
+                        <p>&laquo; This App has completely revolutionized the way we travel, we will never have to wait around in the rain for transport, we can time our day perfectly. I don't know how ever I lived without it. &laquo;
+                        </p>
+                        <small>James T.Kirk, <cite title="source title">Startship Enterprise</cite> </small>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- info pannel end -->
+    <div class=ftr>
+        <div class="container">
+            <div class="row">
+                <footer>
+                    <div class="pull-left ft_space">
+                        <address>
+                            <h3>Moveme Inc</h3> 250 Trafalgar Road
+                            <br> Oakville, On M6L 6Y9
+                            <br>
+                            <a href="mailto: first.last@moveme.com">hello@moveme.com </a>
+                            <br>
+                            <abbr title="Phone">P:</abbr>906 123-5421
+                        </address>
+                    </div>
+                    <div class="pull-right ft_space">
+                        <img src="images/bike.jpg" class="img responsive">
+                        <p>&copy; MoveMe Inc. 2013</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="//code.jquery.com/jquery.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="css/js/bootstrap.min.js"></script>
+    <script src="css/js/jquery-3.2.1.min"></script>
+    <script>
+    $(function() {
+        $('.myTooltip').tooltip({
+            selector: "[data-toggle=tooltip]",
+            container: "body"
+        })
+    })
+    </script>
+</body>
+
+</html>
